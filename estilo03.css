@@ -1,0 +1,13 @@
+.imagem{
+    background: url("mario-super-mario-bros.jpg") no-repeat;
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-size: contain;
+}
+.imagem:hover{
+    background-position: 0px 10px;
+}
+.imagem:active{
+    background-position: 10px 0px;
+}
